@@ -1,0 +1,49 @@
+# =============================================================================
+# .gitignore - O que NAO entra no controle de versao (Git)
+# -----------------------------------------------------------------------------
+# Aqui ficam listados arquivos e pastas que NAO devem ser enviados para o
+# repositorio: arquivos pesados, gerados automaticamente, ou especificos da
+# sua maquina. Eles sao recriados quando alguem roda a instalacao do projeto.
+# =============================================================================
+
+# --- Dependencias instaladas (recriadas com "npm install" / "pip install") ---
+node_modules/
+venv/
+.venv/
+env/
+
+# --- Saidas de build (geradas com "npm run build") ---
+dist/
+build/
+*.tsbuildinfo
+
+# --- Arquivos WASM copiados automaticamente (gerados por scripts/copy-wasm.mjs) ---
+3.viewer/public/web-ifc.wasm
+3.viewer/public/web-ifc-mt.wasm
+
+# --- Arquivos pesados de instalacao (distribuidos fora do Git) ---
+# Instaladores e pacotes grandes. Compartilhe-os por Drive/pendrive, nao pelo Git.
+# (os scripts de setup .bat/.command sao texto leve e CONTINUAM versionados)
+*.zip
+*.exe
+*.dmg
+
+# --- Engine web-ifc (codigo-fonte de referencia, baixado a parte) ---
+# E o repositorio open-source da biblioteca web-ifc (~700 MB). Serve apenas como
+# material de consulta; o projeto usa a versao publicada via npm.
+2.engine_web-ifc-main/
+
+# --- Cache e logs ---
+*.log
+npm-debug.log*
+.cache/
+.vite/
+__pycache__/
+*.pyc
+
+# --- Configuracoes locais de editores / ferramentas ---
+.claude/settings.local.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIM AI - Visualizador IFC</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+
+      bim-grid {
+        width: 100%;
+        height: 100%;
+      }
+
+      bim-viewport {
+        position: relative;
+      }
+
+      bim-panel {
+        max-height: 100%;
+        overflow-y: auto;
+      }
+
+      /* Loading overlay */
+      #loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1a1a2e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        color: white;
+        font-family: system-ui, sans-serif;
+        transition: opacity 0.5s ease;
+      }
+
+      #loading-overlay.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .loader {
+        width: 48px;
+        height: 48px;
+        border: 4px solid rgba(255,255,255,0.2);
+        border-top-color: #6c63ff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 16px;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+
+      /* Drop zone */
+      .drop-zone-active {
+        outline: 3px dashed #6c63ff;
+        outline-offset: -3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading-overlay">
+      <div class="loader"></div>
+      <p>Inicializando visualizador...</p>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

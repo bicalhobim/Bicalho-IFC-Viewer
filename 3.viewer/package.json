@@ -1,0 +1,28 @@
+{
+  "name": "bim-ai-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visualizador IFC completo com ThatOpen Components",
+  "scripts": {
+    "copy-wasm": "node scripts/copy-wasm.mjs",
+    "predev": "npm run copy-wasm",
+    "dev": "vite",
+    "prebuild": "npm run copy-wasm",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@thatopen/components": "~3.4.0",
+    "@thatopen/components-front": "~3.4.0",
+    "@thatopen/fragments": "~3.4.0",
+    "@thatopen/ui": "~3.4.0",
+    "@thatopen/ui-obc": "~3.4.0",
+    "three": "^0.182.0",
+    "web-ifc": "^0.0.77"
+  },
+  "devDependencies": {
+    "@types/three": "^0.184.1",
+    "typescript": "^5.5.0",
+    "vite": "^6.0.0"
+  }
+}

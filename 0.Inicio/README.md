@@ -2,6 +2,11 @@
 
 Projeto da Pós-graduação em **BIM + Inteligência Artificial**.
 
+> 📍 **Você está na pasta `0.Inicio`** — o ponto de partida do projeto. Se é a sua
+> primeira vez aqui e você **nunca programou**, comece pelo
+> [**GUIA-DO-ALUNO.md**](GUIA-DO-ALUNO.md): ele instala tudo do zero, passo a passo.
+> Este README é a visão geral técnica do projeto.
+
 Este repositório contém um **visualizador de modelos IFC** que roda no navegador:
 você abre um arquivo `.ifc` (modelo BIM) e consegue navegar em 3D, clicar em
 elementos, ver a árvore espacial (Terreno → Edifício → Pavimento → Elemento) e
@@ -20,8 +25,13 @@ IFC via WebAssembly), [Three.js](https://threejs.org/) (3D) e
 
 ## ⚡ Início rápido (3 passos)
 
+> Nunca programou? **Não comece por aqui** — vá para o
+> [**GUIA-DO-ALUNO.md**](GUIA-DO-ALUNO.md), que instala tudo do zero. Os passos
+> abaixo assumem que o Node.js já está instalado.
+
 1. Instale o **Node.js** (versão LTS) em <https://nodejs.org/> — é o único pré-requisito.
-2. Abra um terminal **dentro da pasta `3.viewer`** e rode:
+2. Abra um terminal **dentro da pasta `3.viewer`** (ela fica na raiz do projeto,
+   ao lado desta pasta `0.Inicio`) e rode:
    ```bash
    npm install
    npm run dev
@@ -41,8 +51,14 @@ máquina** (arquivos pesados / gerados):
 
 ```
 07.bim_ai/
-├── README.md                  ← este arquivo (visão geral + instalação)
 ├── .gitignore                 ← define o que NÃO entra no Git
+│
+├── 0.Inicio/                  ← 👋 COMECE AQUI — onboarding do aluno
+│   ├── GUIA-DO-ALUNO.md       ← guia passo a passo (instala tudo do zero)
+│   ├── PROMPT-INSTALACAO.md   ← prompt pronto p/ a IA configurar o ambiente
+│   ├── README.md              ← este arquivo (visão geral técnica do projeto)
+│   ├── requirements.txt       ← bibliotecas Python da disciplina
+│   └── (Instalador .exe        — NÃO versionado, distribuído à parte)
 │
 ├── 3.viewer/                  ← ⭐ O CÓDIGO DO PROJETO (o visualizador IFC)
 │   ├── src/main.ts            ← toda a lógica do visualizador
@@ -54,12 +70,6 @@ máquina** (arquivos pesados / gerados):
 │   ├── public/                ← arquivos servidos na raiz (WASM gerado aqui)
 │   ├── node_modules/          ← (gerado por "npm install" — NÃO versionado)
 │   └── dist/                  ← (gerado por "npm run build" — NÃO versionado)
-│
-├── 0.Inicio/                  ← material de onboarding do aluno
-│   ├── GUIA-DO-ALUNO.md       ← guia de instalação do ambiente (passo a passo)
-│   ├── PROMPT-INSTALACAO.md   ← prompt para configurar Python/Node via IA
-│   ├── requirements.txt       ← bibliotecas Python da disciplina
-│   └── (Instalador .exe        — NÃO versionado, distribuído à parte)
 │
 ├── BEP/                       ← documentos de referência BIM (Termo de Referência)
 │
@@ -94,9 +104,9 @@ bibliotecas (definidas em `3.viewer/package.json`):
 | `vite` + `typescript` | Servidor de desenvolvimento e linguagem |
 
 ### Para os exercícios em Python (opcional, disciplina)
-Definidas em `0.Inicio/requirements.txt`: `ifcopenshell`, `openpyxl`, `numpy`,
-`matplotlib`. Instaladas em um ambiente virtual (`venv`) — veja
-`0.Inicio/PROMPT-INSTALACAO.md`.
+Definidas em `requirements.txt` (nesta mesma pasta): `ifcopenshell`, `openpyxl`,
+`numpy`, `matplotlib`. Instaladas em um ambiente virtual (`venv`) — veja
+`PROMPT-INSTALACAO.md`.
 
 ---
 

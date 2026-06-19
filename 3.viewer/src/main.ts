@@ -26,14 +26,37 @@ world.name = "main";
 // Viewport (container do canvas 3D)
 const viewport = document.createElement("bim-viewport");
 
-// Cena com iluminacao adequada
+// Marca do visualizador no canto inferior esquerdo (substitui a logo da ThatOpen)
+const brand = document.createElement("div");
+brand.textContent = "Bicalho IFC Viewer";
+brand.style.cssText = [
+  "position: absolute",
+  "left: 0.75rem",
+  "bottom: 0.75rem",
+  "font-family: system-ui, -apple-system, sans-serif",
+  "font-weight: 600",
+  "font-size: 0.95rem",
+  "color: #1a3a5c",
+  "pointer-events: none",
+  "user-select: none",
+  "opacity: 0.9",
+  "z-index: 1",
+].join("; ");
+viewport.appendChild(brand);
+
+// Cena com iluminacao adequada e fundo azul claro
 const sceneComponent = new OBC.SimpleScene(components);
-sceneComponent.setup(); // Configura luzes automaticamente (ambient + directional)
+sceneComponent.setup({
+  // Configura luzes automaticamente (ambient + directional) e define o fundo
+  backgroundColor: new THREE.Color("#cfe8ff"), // azul claro
+});
 world.scene = sceneComponent;
 
 // Renderer
 const rendererComponent = new OBC.SimpleRenderer(components, viewport);
 world.renderer = rendererComponent;
+// Remove a marca d'agua "That Open Company" do canto do viewport
+rendererComponent.showLogo = false;
 
 // Camera
 const cameraComponent = new OBC.SimpleCamera(components);

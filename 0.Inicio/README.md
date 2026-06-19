@@ -71,7 +71,7 @@ máquina** (arquivos pesados / gerados):
 │   ├── node_modules/          ← (gerado por "npm install" — NÃO versionado)
 │   └── dist/                  ← (gerado por "npm run build" — NÃO versionado)
 │
-├── BEP/                       ← documentos de referência BIM (Termo de Referência)
+├── 1.entradas_usuario/        ← documentos de referência BIM (Termo de Referência, BEP)
 │
 ├── 2.engine_web-ifc-main/     ← código-fonte da engine web-ifc (referência — NÃO versionado)
 ├── venv/                      ← ambiente Python (NÃO versionado)

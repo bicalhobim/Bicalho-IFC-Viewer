@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "blocks": [
+    {
+      "id": "1",
+      "type": "general_project",
+      "title": "1. INFORMAÇÕES GERAIS DO PROJETO",
+      "content": {
+        "project_name": "Empreendimento de Habitação de Interesse Social (E HIS) \"Chorões da Tia Gê\"",
+        "address": "Rua Cecília, Subprefeitura e Distrito da Penha, zona Leste da Cidade de São Paulo",
+        "neighborhood": "Penha",
+        "municipality": "São Paulo",
+        "contract_number": "",
+        "client_name": "Secretaria Municipal de Habitação (SEHAB)",
+        "modality": "Licitação",
+        "intended_use": "Habitação de Interesse Social",
+        "target_audience": "Famílias moradoras de favelas",
+        "project_deadline": "",
+        "construction_deadline": "",
+        "standard": "NBR 15965 e ISO 19650",
+        "sustainability_indicators": "",
+        "lot_area": "3.615,53 m²",
+        "construction_area": "",
+        "floors_count": "17 pavimentos (térreo + 16 andares)",
+        "population_forecast": "136 unidades habitacionais",
+        "oir_description": "",
+        "eir_description": "Elaboração de projetos de Arquitetura, Estrutura, Terraplenagem, Geotecnia, Fundação, Elétrica, Hidráulica e Paisagismo",
+        "bidder_company": "",
+        "bidder_representatives": [],
+        "proposal_date": ""
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "2",
+      "type": "general_team",
+      "title": "2. INFORMAÇÕES GERAIS – EQUIPE DO PROJETO",
+      "content": {
+        "contractor_team": [
+          {
+            "role": "CONTRATANTE",
+            "name": "Secretaria Municipal de Habitação (SEHAB)",
+            "education": "",
+            "email": "",
+            "phone": ""
+          }
+        ],
+        "bidder_team": []
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "3",
+      "type": "responsibility_matrix",
+      "title": "3. MATRIZ DE RESPONSABILIDADES",
+      "content": {
+        "technical_team": [
+          {
+            "role": "GESTOR BIM",
+            "name": "",
+            "registry": "",
+            "email": "",
+            "phone": ""
+          }
+        ]
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "4",
+      "type": "deliverables_matrix",
+      "title": "4. MATRIZ DE ENTREGÁVEIS",
+      "content": {
+        "deliverables": [
+          {
+            "phase": "Desenvolvimento do Projeto",
+            "discipline": "Arquitetura",
+            "deliverable": "Projetos de Arquitetura",
+            "formats": "IFC, DWG, PDF",
+            "responsible": "CONTRATADA"
+          },
+          {
+            "phase": "Desenvolvimento do Projeto",
+            "discipline": "Estrutura",
+            "deliverable": "Projetos de Estrutura",
+            "formats": "IFC, DWG, PDF",
+            "responsible": "CONTRATADA"
+          },
+          {
+            "phase": "Desenvolvimento",
+            "discipline": "Pavimentação",
+            "deliverable": "Projeto Pavimentação",
+            "formats": "IFC",
+            "responsible": "CONTRATADA"
+          }
+        ]
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "5",
+      "type": "bim_uses_goals",
+      "title": "5. USOS BIM (OBJETIVOS ORGANIZACIONAIS)",
+      "content": {
+        "goals": [
+          {
+            "priority": "1",
+            "objective": "Elaboração de projetos de Arquitetura, Estrutura, Terraplenagem, Geotecnia, Fundação, Elétrica, Hidráulica e Paisagismo",
+            "uses": "Modelagem BIM, Compartilhamento de informações, Colaboração em equipe"
+          }
+        ]
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "6",
+      "type": "bim_uses_infra",
+      "title": "6. USOS BIM (INFRAESTRUTURA TECNOLÓGICA)",
+      "content": {
+        "software_tools": [
+          {
+            "use": "Modelagem BIM",
+            "platform": "Autodesk Revit",
+            "version": "Última versão",
+            "extension": ""
+          }
+        ],
+        "hardware_requirements": [
+          {
+            "purpose": "Modelagem BIM",
+            "cpu": "Intel Core i7",
+            "ram": "16 GB",
+            "gpu": "NVIDIA GeForce",
+            "os": "Windows 10",
+            "hd": "1 TB"
+          }
+        ]
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "7",
+      "type": "project_requirements",
+      "title": "7. REQUISITOS DO PROJETO (LOIN / LOD)",
+      "content": {
+        "requirements": [
+          {
+            "phase": "Desenvolvimento do Projeto",
+            "lod": "LOD 200",
+            "loin": "LOIN 100"
+          }
+        ]
+      },
+      "isExpanded": true
+    },
+    {
+      "id": "8",
+      "type": "schedule",
+      "title": "8. PRINCIPAIS MARCOS DO PROJETO",
+      "content": {
+        "milestones": [
+          {
+            "item": "Início do Projeto",
+            "description": "Início do desenvolvimento do projeto",
+            "duration": "",
+            "start": "",
+            "end": ""
+          },
+          {
+            "item": "Entrega do Projeto",
+            "description": "Entrega do projeto elaborado",
+            "duration": "",
+            "start": "",
+            "end": ""
+          }
+        ]
+      },
+      "isExpanded": false
+    },
+    {
+      "id": "9",
+      "type": "roles_responsibilities",
+      "title": "9. PAPÉIS E RESPONSABILIDADES",
+      "content": {
+        "roles": [
+          {
+            "role": "CONTRATADA",
+            "responsibility": "Elaborar projetos de Arquitetura, Estrutura, Terraplenagem, Geotecnia, Fundação, Elétrica, Hidráulica e Paisagismo"
+          },
+          {
+            "role": "GESTOR BIM",
+            "responsibility": "Gerenciar a modelagem BIM e o compartilhamento de informações"
+          }
+        ]
+      },
+      "isExpanded": false
+    },
+    {
+      "id": "10",
+      "type": "references",
+      "title": "10. REFERÊNCIAS",
+      "content": {
+        "references": []
+      },
+      "isExpanded": false
+    },
+    {
+      "id": "11",
+      "type": "attachments",
+      "title": "11. ANEXOS",
+      "content": {
+        "attachments": []
+      },
+      "isExpanded": false
+    }
+  ],
+  "isoContext": "ANEXO I   -   TERMO DE REFERÊNCIA  1.   OBJETO DA CONTRATAÇÃO  Trata - se de contratação de empresa ou consórcio de empresas, para prestação de serviços técnicos especializados  em arquitetura e engenharia visando à elaboração de   p rojetos   de arquitetura e disciplinas complementares   de  Habitação de Interesse Social (HIS) com a utilização de Metodologia BIM   –   Building Information Modeling (ou  Modelagem da Informação da Construção, em português).  Deverão ser desenvolvidos os projetos de Arquitetura, Estrutura, Terraplenagem, Geotecnia, Fundação, Elétrica,  Hidráulica e Paisagismo completos, conforme   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo  I.d ), a fim de permitir a contratação e execução das obras de   construção   do   Empreendimento   de Habitação de  Interesse   Social ( E HIS)   “Chorões da Tia Gê”, localizado na   região administrativa da   Subprefeitura da Penha, zona  Leste da Cidade de São Paulo .  2.   JUSTIFICATIVA  A presente contratação está alinhada com   compromisso da municipalidade   na promoção direta de Habitação de  Interesse Social ,   conforme o Programa de Metas vigente, cuja Meta 12   está   sob   responsabilidade   d esta   Secretaria  Municipal de   Habitação   (SEHAB) .  O objetivo é   a execução de projeto arquitetônico , que considere a qualidade de especialista da SEHAB,   para   o  atendimento   habitacional   definitivo   d as   famílias   moradoras de favelas , cujas   casas   foram   removidas pelo poder  públi co e estão rece bendo auxílio   aluguel.  Ademais, trata - se   de   bem municipal   transferido   à SEHAB   (Auto de Cessão nº 2991)   para implantação de conjunto  habitacional, tendo em vista   que a r egião é provida de infraestrutura urba na adequada   para este uso.  3.   CARACTERIZAÇÃO DA ÁREA  O terreno destinado a construção do edifício está situado na Rua Cecília, Subprefeitura e Distrito da Penha, zona  Leste da Cidade de São Paulo. A área é de propriedade municipal, inserida em ZEU (Zona Eixo de Estruturação da  transformação Urbana), de acord o com a Lei 16.402/2016 (Plano Diretor Estratégico   -   PDE).  Trata - se de terreno com pouca declividade, área total do lote estimada de 3.615,53 m ², sem construções, com  pequeno maciço arbóreo nos limites da Rua Cecília   –   vide   C roqui de   L ocalização   ( Anexo II.b ) .   Há interferência com  o “Córrego do Rincão” que corta a área em galeria fechada, resultando em restrições quanto ao aproveitamento  do terreno. Devem ser consideradas todas as legislações e diretrizes para esta situação assim como investigação  de sua exata   locação.\n4.   INSUMOS E PREMISSAS PARA O DESENVOLVIMENTO DO PROJETO  Os projetos executivos serão elaborados a partir do   Plano de Massas   fornecido   pela SEHAB, cuja previsão inicial é  de implantar 01 (um) condomínio com 136   unidades habitacionais .  A concepção arquitetônica deverá considerar a implantação de um edifício, com previsão de 17 pavimentos  (térreo + 16 andares), cuja geometria inicial em formato de “L” buscou ao máximo o aproveitamento do espaço  disponível fora dos limites impeditivos da c analização e respectivas faixas de manutenção .  Conforme   Boletim de Dados Técnicos (BDT) ,   emitido pela Secretaria Municipal de Urbanismo e Licenciamento  (SMUL),   altitude máxima   da edificação não poderá ultrapassar a altitude de   794,88 . Deverá ser validada esta  restrição junto ao COMAER (Comando da Aeronáutica).  Devem ainda ser projetados espaços de lazer coberto e descoberto, fora do corpo do edifício, conforme  apresentado no   Plano de Massas ( Anexo II.a ),   buscando o melhor aproveitamento do terreno. Esta premissa  poderá ser reavaliada em caso de revisão do   Plano de Massas   em função do melhor aproveitamento de potencial  construtivo mediante investigação e locação da canalização.  Todas as áreas técnicas, reservatórios, lixeiras, circulações, rotas de fuga e elevadores deverão ser recalculados  pela projetista, cabendo a ela as revisões e adequações necessárias para o completo atendimento à legislação e  normas pertinentes.  A SEHAB fornecerá a documentação fundiária, levantamentos planialtimétricos e os planos de massas , bem como  folha com carimbo padrão da Secretaria a ser adotada em todos os projetos, com exceção dos projetos legais e  demais aprovações, que deverão seguir os padrões de folhas determinados pelos órgãos competentes. O sistema  de codificação e nomenclatur a dos arquivos está descrito no   Caderno de Projetos   em   BIM   –   Edificações   -   2ª Edição  e Adendo do Caderno de Projetos em BIM   ( Anexo I. c ) .  Serão fornecidos à   CONTRATADA   (licitante vencedora do certame) elementos técnicos, como critérios, padrões e  especificações de projeto. Tais elementos resultam da experiência da SEHAB e deverão servir como diretrizes,  entretanto,   não   anulam   a   responsabilidade   técnica   da   CONTRATADA   pela   execução   dos   serviços.   Na  impossibilidade de aplicação desses elementos, prevalecerão as Normas Técnicas, Diretrizes das Concessionárias  e os critérios da boa técnica, a serem discutidos com a SEHAB.  A SEHAB poderá, a seu exclusivo critério, atualizar os materiais de apoio ao projeto   e   plano de massas  disponibilizados nesta licitação, fornecendo a versão mais atualizada destes materiais após a emissão da Ordem  de Início de Serviços   -   OIS.  A   CONTRATADA   deverá elaborar análise crítica de todo material fornecido pela SEHAB, propondo os ajustes  técnicos necessários. Tais propostas deverão ser submetidas às aprovações da SEHAB, a qual também é facultada  solicitar as adequações técnicas que julgar necessária s.\nA SEHAB poderá solicitar que a   CONTRATADA   realize vistorias ao local do projeto, a fim de subsidiar as análises e  decisões técnicas.  5.   DIRETRIZES GERAIS PARA ELABORAÇÃO DO PROJETO  Os projetos deverão ser desenvolvidos pelas projetistas em Metodologia BIM, considerando - se as adequações  que se fizerem necessárias de acordo com a análise do material técnico disponibilizado pela SEHAB e vistorias no  local.  Interferências e condições locais não identificadas no levantamento planialtimétrico cadastral devem ser  consideradas, de modo a evitar e/ou minimizar reformulações nas etapas de desenvolvimento dos projetos e na  execução das obras.  Os projetos serão elaborados considerando as diretrizes da SEHAB, demais órgãos públicos, concessionárias,  instruções técnicas, normas e legislações pertinentes, bem como as diretrizes da Lei Municipal 17.260/2020, que  disciplina a licitação sustentável pa ra a contratação de serviços e obras na administração pública.  No que se refere à legislação específica das edificações, destacam - se: a Norma de Desempenho de Edificações  Habitacionais (ABNT NBR 15.575/13), a Lei Brasileira de Inclusão (Lei Federal nº 13.146/15) e seus respectivos  regulamentadores, os Decretos Municip ais (Decreto nº 59.885/20 e 59.886/20) ou alterações posteriores e  legislações que venham a substituí - los.  Deverão, ainda, ser consideradas as diretrizes constantes na Portaria nº37/SEHAB.G/2021 -   Diretrizes de Projeto  –   Edificações de   HIS   ( Anexo l.b ) , ser seguidas as diretrizes nos   Caderno de Modelagem   em   BIM   -   Projetos de HIS   -  2ª Edição   ( Anexo I.e ),   Caderno de Projetos em BIM   –   Edificações   -   2ª Edição e Adendo do Caderno de Projetos em  BIM   ( Anexo I.c ) ,   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo I.d )   e nos demais anexos deste  Termo de Referência.  Cabe esclarecer que   se entende   por projeto de “edificação”, além dos edifícios multifamiliares, toda e qualquer  construção e equipamentos necessários ao seu funcionamento, tais como guaritas e/ou portarias, abrigos,  reservatórios etc., sejam eles anexos ou não aos edifícios principais.   E entende - se por projeto de “implantação”  toda a área externa às edificações, incluindo estacionamento, áreas de lazer, acessos, áreas verdes e todos os  prolongamentos das redes de infraestrutura pública que se fizerem necess ários visando a interligação das redes  condominiais.  Todos   os   condomínios,   edifícios   e   suas   unidades   habitacionais   (UHs)   deverão   contar   com   a   medição  individualizada dos serviços de abastecimento de gás, água e energia elétrica.  Sempre que possível, o bicicletário deverá ser dimensionado de modo a comportar 1 (uma) vaga de bicicleta por  UH e deverá, sempre que possível,   ser prevista 1 (uma) vaga de estacionamento para carga e descarga.  O s   projeto s   deve m   considerar soluções que assegurem a economicidade da execução da obra e a maior  autonomia dos condomínios, tendo em vista os custos de manutenção e gestão condominial.\nOs projetos deverão considerar ainda as áreas de APP   –   Área de preservação Permanente e faixas de manutenção  de acordo com a Lei 12.651/2012 .  6.   MODELAGEM BIM   –   (Modelagem e Fluxo de Trabalho)  Toda a modelagem BIM, compatibilização entre disciplinas, fornecimento de relatórios, conteúdo das planilhas,  quantitativos e quaisquer outros documentos gerados a partir do modelo BIM é de total responsabilidade da  CONTRATADA . As orientações para elaboração destes produtos e atendimento aos requisitos estão especificadas  no   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo I.d ) , no   Caderno de Modelagem em BIM   -  Projetos de HIS   -   2ª Edição   ( Anexo I.e ) , no   Caderno de Projetos em BIM   –   Edificações   -   2ª Edição e Adendo do  Caderno de Projetos em BIM   ( Anexo I.c ) , e deverão ser integralmente seguidas pela   CONTRATADA .  O planejamento da estrutura, estratégia, fluxos, organização, entre outros, para o   desenvolvimento do projeto e  da modelagem, são tratados no Plano Executivo BIM (PEB).  O PEB deverá ser elaborado pela   CONTRATADA   com base no   T emplate do Plano Executivo BIM _PEB   ( Anexo I.g ).  Importante ressaltar que apenas após a validação deste produto pela SEHAB terá início o desenvolvimento dos  pacotes. A projetista será responsável em mantê - lo atualizado no decorrer do processo de desenvolvimento dos  serviços, conforme as tomadas de dec isão pela   CONTRATANTE .  Os projetos de arquitetura e engenharia deverão ser, obrigatoriamente, desenvolvidos com o uso de softwares  BIM, devendo ser entregues nos seguintes formatos:  a.   Durante o desenvolvimento dos projetos   -   em IFC   (Industry Foundation Classes ) e demais formatos definidos  para cada etapa, atendendo   o   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo I.d ) );  b.   Após a aprovação final do projeto ou conforme solicitação da SEHAB   -   no(s) formato(s) nativo(s) do(s)  software(s) de modelagem utilizado, com suas respectivas bibliotecas, IFC e demais formatos definidos para cada  etapa, atendendo   o   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo I.d ) ;  Os softwares escolhidos devem importar e exportar corretamente as informações para IFC seguindo as  orientações do   Caderno de Modelagem em BIM   -   Projetos de HIS   -   2ª Edição   ( Anexo I.e ) .  Os elementos do modelo devem ser modelados por pavimento, conforme a sequência construtiva e as definições  do   Caderno de Modelagem em BIM   -   Projetos de HIS   -   2ª Edição   ( Anexo I.e ) , ficando a   CONTRATADA   obrigada a  entregar o modelo BIM e seus componentes. A SEHAB poderá reproduzir todo o conteúdo presente no modelo  em outros contextos.  Ao longo do processo, as entregas dos produtos devem ser realizadas por meio do Ambiente Comum de Dados   –  CDE ( Commom Data Enviroment) . Os arquivos devem estar separados por disciplina conforme especificado no  Caderno de Modelagem em BIM   -   Projetos de HIS   -   2ª Edição   ( Anexo I.e ) .  O CDE será utilizado como repositório das informações pertinentes ao projeto, incluindo as análises dos produtos  realizadas pela SEHAB e seu PREPOSTO.\nTodos os arquivos deverão ser entregues em formato digital, ficando sob responsabilidade da   CONTRATADA   a  disponibilização de equipamento eletrônico para apresentação (projetor, notebook etc.) quando necessário.  Eventualmente, poderá ser solicitada pela SEHAB a disponibilização de até 1 (uma) via impressa.  7.   PRODUTOS A SEREM ENTREGUES E CRITÉRIOS DE VALIDAÇÃO  As etapas de desenvolvimento do projeto estão divididas em pacotes conforme especificado no   Caderno de  Projetos em BIM   –   Edificações   -   2ª Edição e Adendo do Caderno de Projetos em BIM   ( Anexo I.c ) . A lista dos  produtos e os marcos de validação constam n o   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo  I.d ) .  Todos os materiais deverão atender aos parâmetros definidos pelas diretrizes anteriores e demais disposições  estabelecidas por este Termo de Referência e seus anexos.  A validação dos modelos será realizada com base nos critérios definidos   no   Escopo dos   Pacotes de Produtos BIM  para HIS   –   Versão 02   ( Anexo I.d )   para cada pacote entregue. O pacote é considerado apto para medição somente  após a aprovação total de seus subprodutos pela   CONTRATANTE . A SEHAB poderá, a seu exclusivo critério, realizar  a aprovação com comentários dos subprodutos, desde que o item possa ser atendido nas etapas seguintes, sem  prejuízo ao desenvolvimento do projeto.  Salienta - se que os Pacotes 3C e 7 deverão ser entregues também em 2D, extraídos diretamente do modelo,  conforme especificado n o   Escopo dos Pacotes de Produtos BIM para HIS   –   Versão 02   ( Anexo I.d ) . A documentação  gerada nesses Pacotes corresponderá, respectivamente, a um projeto básico e a um projeto executivo. Devendo,  portanto, apresentar um nível de informações e detalhamentos compatíveis que permitam a perfeita execução  das soluções técnicas pr opostas.  8.   DISPOSIÇÕES GERAIS  A licitante deverá avaliar a complexidade dos serviços e sua capacidade em desenvolvê - los, considerando as  dificuldades no cumprimento e aplicação das diretrizes e especificações apresentadas neste Termo de   Referência,  incluindo seus anexos.  A SEHAB deverá aprovar todas as subcontratações. As subcontratadas deverão apresentar portfólios e/ou  atestados que demonstrem sua experiência em projetos dessa natureza, considerando a complexidade dos  serviços a serem desenvolvidos.  O cronograma físico - financeiro estipulado no Contrato, a ser elaborado pela   CONTRATADA , deverá ser  apresentado a partir da Ordem de Início dos Serviços e aprovado pela SEHAB, sempre considerando os prazos  necessários para análise   a serem informados por SEHAB.  A   CONTRATADA   será responsável pelas aprovações legais definidas n o   Escopo dos Pacotes de Produtos BIM para  HIS   –   Versão 02   ( Anexo I.d ) , sendo de sua exclusiva responsabilidade as correções necessárias aos projetos para  sua aprovação, sem ônus adicional à SEHAB.\nA   CONTRATADA   será integralmente responsável pelos custos de aquisição e fornecimento de acesso ao CDE,  sendo da SEHAB e/ou PREPOSTO a responsabilidade pela sua gestão.  Para a gestão do ambiente colaborativo a   CONTRATADA   deverá fornecer à SEHAB/Preposto no mínimo 04  usuários   de acesso   integral   a este ambiente, com vigência até a finalização do Termo de Recebimento Definitivo  (TRD). A critério da SEHAB o tempo de vigência   dos usuários   do CDE poderá ser reduzido.  A compatibilização entre os projetos é de total responsabilidade da   CONTRATADA . Ao longo de todo o  desenvolvimento do projeto, a   CONTRATADA   deverá realizar a compatibilização entre as disciplinas através dos  modelos BIM, em ambiente colaborativo, conforme estabelecido n o   Escopo dos Pacotes de Produtos BIM para  HIS   –   Versão 02   ( Anexo I.d ).  Essa compatibilização consiste na sobreposição das modelagens das disciplinas, com objetivo de minimizar  elementos em colisão e sobreposição ,   avaliando as distâncias mínimas   exigidas em relação a outros elementos, a  fim de encontrar as soluções que se adequem às necessidades do projeto e condições de execução da obra.  Todos os direitos autorais, de propriedade e de reprodução de todos os produtos desta contratação passarão à  SEHAB.  As tipologias de apartamento e edificações desenvolvidas ou fornecidas pela SEHAB, não poderão ser  reproduzidas pela   CONTRATADA , em outros projetos, sem autorização expressa da SEHAB.  É facultada à SEHAB solicitar modificações consideradas imprescindíveis à melhoria dos projetos, objetos desta  contratação. Nestes casos, por solicitação da   CONTRATADA , a alteração dos prazos estabelecidos em cronograma  será avaliada pela SEHAB.  Quando solicitado pela SEHAB, a   CONTRATADA   deverá desenvolver os materiais gráficos que serão utilizados nas  reuniões de apresentação do projeto à população, de forma a facilitar sua compreensão. Para essas reuniões, fica  a critério da SEHAB a convocação da   CONTRATADA , sem o pagamento de valores adicionais.  8.1.   Sobre o Termo de Recebimento Provisório e Definitivo  Executado o contrato, o seu objeto será recebido:  a.   Provisoriamente, pelo responsável por seu acompanhamento e fiscalização, mediante emissão de  termo circunstanciado, assinado pelas partes em até 15 (quinze) dias da comunicação escrita da  CONTRATADA .  Para a emissão do Termo de Recebimento Provisório (TRP), a   CONTRATADA   deverá apresentar todos os  produtos gerados ao longo do contrato, compreendendo:  •   02 vias eletrônicas em Pendrive, HD Externo ou outra mídia aceita pela SEHAB, contendo todos os  modelos 3D, as bibliotecas, arquivos de plantas, memoriais descritivos e de cálculo, relatórios e demais  produtos entregues, nas versões editáveis e não editáve is (DWG, Word, Excel, PDF, IFC e demais arquivos\nnativos), assinados e datados com indicação da respectiva ART/RRT do responsável técnico pela sua  elaboração;  •   Todos os produtos no formato PDF aprovados, devem conter também o carimbo de aprovação da  SEHAB ou do seu PREPOSTO, datado e com assinatura do responsável pela aprovação;  •   Arquivos DWGs, e seus respectivos PDFs, deverão ser apresentados em folha padrão ABNT, com  carimbo conforme item 4.1 Diretrizes específicas. Entre o carimbo e o limite da folha, deverá ser indicado  o nome do arquivo DWG, a fim de facilitar a identificação   do mesmo em caso de impressão;  •   A assinatura eletrônica do projetista no carimbo deve estar legível, assim como a identificação da  ART/RRT;  •   Arquivos com referência externa (X - REF e outros) deverão ser entregues com “bind” ou equivalente,  além de todos os seus arquivos de referência;  •   Fornecer arquivos de padrão de penas do AutoCad (CTB), necessários para futuras plotagens ou geração  de PDFs.  •   RRT e ART dos responsáveis técnicos assinadas e datadas, com a descrição do escopo executado, em  meio digital, salva juntamente com os produtos as quais se referem;  •   Tabela digital e impressa dos produtos na ordem da planilha orçamentária, contendo o nome dos  produtos gravados na mídia e relacionando - os com os arquivos eletrônicos em DWG/Word/Excel/PDF/IFC  e nativo (modelo 3D), contendo:  ▪   Etapa, Nome da Área e Disciplinas;  ▪   Nome do arquivo DWG;  ▪   Nome do arquivo PDF;  ▪   Nome do arquivo IFC;  ▪   Nome do arquivo Nativo;  ▪   Nome do(s) arquivo(s) de biblioteca;  ▪   Código do Escopo;  ▪   Conteúdo (descrição do arquivo/folha);  ▪   Escala (quando pertinente).  b.   Definitivamente, por servidor ou comissão designada pela autoridade   competente, em prazo não  superior a 90 (noventa) dias a contar do recebimento provisório, mediante termo detalhado que  comprove o atendimento das exigências contratuais.  Estando aprovado o TRP, com todas as pendências sanadas, a SEHAB poderá emitir o Termo de  Recebimento Definitivo (TRD) do Contrato.  Nessa última etapa, quando todos os produtos estiverem concluídos, entregues e aceitos pelas SEHAB, a  CONTRATADA   poderá solicitar o Atestado de Capacidade Técnica, que terá efeito como aceite definitivo dos  projetos.\n8.2.   Sobre a coordenação de projetos:  A   CONTRATADA   deverá indicar os profissionais responsáveis pela coordenação geral, das disciplinas e da  gestão BIM conforme estabelecido nos   Critérios de   Análise e   Julgamento   (Anexo I.f).  Para a discussão do andamento dos trabalhos serão realizadas reuniões técnicas periódicas, sempre que  convocadas pela SEHAB ou solicitadas pela   CONTRATADA . A SEHAB poderá, a seu exclusivo critério, solicitar a  presença do coordenador geral e/ou   gestor BIM   das disciplinas nas reuniões.  8.3.   Sobre a responsabilidade técnica:  A   CONTRATADA   deverá apresentar a ART (Anotação de Responsabilidade Técnica) ou RRT (Registro de  Responsabilidade Técnica) originais ou cópias autenticadas, das empresas responsáveis pelos projetos, do  Coordenador Geral e demais profissionais listados na equipe de refe rência, conforme apontado nos   Critérios  de Análise e Julgamento   (Anexo I.f) .  Deverá também apresentar as ARTs ou RRTs individuais, referentes à responsabilidade técnica de cada  disciplina, separadas por projeto desenvolvido.  As despesas com emissão de ARTs e RRTs, incluindo - se suas cópias autenticadas são de responsabilidade da  CONTRATADA .  9.   DOCUMENTOS DE REFERÊNCIA  1.   Termo de Referência  •   Anexo I.a   –   Cronograma Físico Detalhado  •   Anexo I.b   –   Diretrizes de Projetos   -   Edificações de HIS  •   Anexo I.c   –   Caderno de Projetos BIM: Edificações _2ª Edição   e Adendo Caderno de Projetos em BIM  •   Anexo I.d   –   Escopo dos Pacotes de Produtos BIM para HIS _Versão 2  •   Anexo I.e   –   Caderno de Modelagem em BIM:   Projetos HIS _ 2ª Edição  •   Anexo I.f   –   Critérios de Análise e Julgamento  •   Anexo I.g   –   Template do Plano Executivo BIM _ PEB)  •   Anexo II.a   –   Plano de Massas  •   Anexo II.b   –   Croqui de localização  2.   Planilha Orçamentária de Referência  3.   Composição de Preços Unitários   –   CPUs  4.   Planilha de Composição de BDI  5.   Cronograma Físico Financeiro de Referência  6.   Normas de Medição  7.   Normas de Execução  8.   Modelos de Planilha Orçamentária de Referência   Cronograma físico -   financeiro   Composição de BDI\n9.   Possíveis itens a serem subcontratados  10.   Memória de Cálculo   Serviços Preliminares\n"
+}
